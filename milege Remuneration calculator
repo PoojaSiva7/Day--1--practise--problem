@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class hello
+{
+	public static void main(String[] args) {
+	   Scanner scan = new Scanner(System.in);
+       float begining = scan.nextFloat();
+       float ending=scan.nextFloat();
+       float  milege = ending -begining;
+       float rs=milege*25;
+        System.out.printf("%.2f %.2f", milege, rs);
+      
+    }
+}
